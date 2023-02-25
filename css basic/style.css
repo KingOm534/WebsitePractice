@@ -1,0 +1,13 @@
+button:hover{
+    color: red;
+    background-color: aqua;
+}
+button{
+    color: aqua;
+    background-color: red;
+}
+.box{
+    width: 1000px;
+    height: 1000px;
+    background-image: linear-gradient(to right,red,orange,yellow);
+}
