@@ -25,6 +25,8 @@
 
 // }
 
+
+
 // //Factory call
 // let rectObj1= createRectangle();
 
@@ -33,7 +35,7 @@
 // rectObj1.breadth;
 // rectObj1.draw();
 
-// //Constructor Function
+//Constructor Function
 // function Rectangles(){
 //     this.length=2;
 //     this.breadth=3;
@@ -48,3 +50,37 @@
 
 // delete rectObj2.color;
 // console.log(rectObj2);
+
+// let Rectangle1  = new Function('len', 'breadth',
+//         ` this.length = len;
+//           this.breadth = breadth;
+//           this.draw= function() {
+//             console.log('Drawing');
+//           }`);
+        
+// //Object creation using Rectangle1
+
+// let rec= new Rectangle1(2,4);
+
+// console.log(rec);
+
+//Object clonning
+    //iteration
+let src={a:12,b:11,c:45};
+
+// let dest={};
+
+// for(let key in src){
+//     dest[key]=src[key];
+// }
+// console.log(dest);
+
+    //assign
+// let dest=Object.assign({},src);
+
+// console.log(dest);
+
+    //spread
+// let dest = {...src};
+
+// console.log(dest);
