@@ -87,22 +87,38 @@
 
 //Arrays
 
-let num=[2,3,6,8];
-console.log(num);
+// let num=[2,3,6,8];
+// console.log(num);
 
 // Searching
 
     //#1
-console.log (num) ;
-console.log (num.indexOf(8));
+// console.log (num) ;
+// console.log (num.indexOf(8));
 
     //we want to check if a number exist in an array
 
-if (num.indexOf(4) != -1)
-    console.log("present");
+// 
 
-    //#2
-console.log(num. includes (7));
+// let array=[2,1,4,5,6,7];
 
-    //#3
-console.log(num.indexOf(4, 8));
+//for-of
+// for(let value of array){
+//     console.log(value);
+// }
+
+//for-each
+// array.forEach(function(num){
+//     console.log(num);
+// });
+
+//using arrow function
+// array.forEach(num => console.log(num));
+
+//Functions
+function run(){
+    console.log("Running");
+}
+
+//Function call
+run();
