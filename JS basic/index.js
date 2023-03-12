@@ -66,7 +66,7 @@
 
 //Object clonning
     //iteration
-let src={a:12,b:11,c:45};
+// let src={a:12,b:11,c:45};
 
 // let dest={};
 
@@ -84,3 +84,25 @@ let src={a:12,b:11,c:45};
 // let dest = {...src};
 
 // console.log(dest);
+
+//Arrays
+
+let num=[2,3,6,8];
+console.log(num);
+
+// Searching
+
+    //#1
+console.log (num) ;
+console.log (num.indexOf(8));
+
+    //we want to check if a number exist in an array
+
+if (num.indexOf(4) != -1)
+    console.log("present");
+
+    //#2
+console.log(num. includes (7));
+
+    //#3
+console.log(num.indexOf(4, 8));
